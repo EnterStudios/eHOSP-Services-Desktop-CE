@@ -4,7 +4,8 @@
   "description": "An e-health & e-medicine desktop application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build": "gulp gulpfile.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "devtron": "^1.1.0",
     "electron-packager": "^7.0.1",
     "electron-prebuilt": "^1.0.1",
+    "gulp": "^3.9.1",
     "spectron": "^3.0.0"
   },
   "dependencies": {
