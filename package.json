@@ -1,31 +1,35 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "eHOSP_Desktop",
+  "version": "0.0.0",
+  "description": "An e-health & e-medicine desktop application",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/karadalex/eHOSP_Client_Electron.git"
   },
   "keywords": [
     "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "eHOSP",
+    "e-health",
+    "medicine"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Alex Karadimos",
+  "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/karadalex/eHOSP_Client_Electron/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/karadalex/eHOSP_Client_Electron#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.0.1"
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.1",
+    "spectron": "^3.0.0"
   },
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "sqlite": "0.0.4"
   }
 }
