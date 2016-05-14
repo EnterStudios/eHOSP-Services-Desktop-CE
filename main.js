@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 1000, height: 600, icon: __dirname + '/ehosp.ico'})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/browser/index.html`)
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
