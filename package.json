@@ -2,10 +2,9 @@
   "name": "eHOSP_Desktop",
   "version": "0.0.0",
   "description": "An e-health & e-medicine desktop application",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
-    "start": "electron main.js",
-    "build": "gulp gulpfile.js"
+    "start": "gulp run"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,13 @@
     "devtron": "^1.1.0",
     "electron-packager": "^7.0.1",
     "electron-prebuilt": "^1.0.1",
+    "electron-reload": "^0.3.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-run": "^1.6.12",
+    "gulp-uglify": "^1.5.3",
     "spectron": "^3.0.0"
   },
   "dependencies": {
