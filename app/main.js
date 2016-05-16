@@ -4,6 +4,8 @@ const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
+require("electron-reload")(__dirname+'browser')
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
@@ -13,7 +15,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 1000, height: 600, icon: __dirname + '/ehosp.ico'})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/browser/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/../browser/index.html`)
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
