@@ -1,14 +1,14 @@
 {
-  "name": "eHOSP_Desktop",
+  "name": "eHOSP-Services-Desktop-CE",
   "version": "0.0.0",
-  "description": "An e-health & e-medicine desktop application",
+  "description": "eHOSP Services Desktop Application Community Edition",
   "main": "app/main.js",
   "scripts": {
     "start": "gulp run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karadalex/eHOSP_Client_Electron.git"
+    "url": "git+https://github.com/ehosp/eHOSP-Services-Desktop-CE.git"
   },
   "keywords": [
     "Electron",
@@ -19,9 +19,9 @@
   "author": "Alex Karadimos",
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/karadalex/eHOSP_Client_Electron/issues"
+    "url": "https://github.com/ehosp/eHOSP-Services-Desktop-CE.git/issues"
   },
-  "homepage": "https://github.com/karadalex/eHOSP_Client_Electron#readme",
+  "homepage": "https://github.com/ehosp/eHOSP-Services-Desktop-CE.git#readme",
   "devDependencies": {
     "devtron": "^1.1.0",
     "electron-packager": "^7.0.1",
@@ -36,6 +36,7 @@
     "spectron": "^3.0.0"
   },
   "dependencies": {
+    "electron": "^1.6.11",
     "express": "^4.13.4",
     "sqlite": "0.0.4"
   }
