@@ -25,4 +25,5 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script:
-  - yarn start
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then yarn package-linux; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then yarn package-mac; fi
